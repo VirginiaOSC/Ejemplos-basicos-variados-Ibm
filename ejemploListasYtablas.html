@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="ES-es"> <!--Inicio de la página-->
+<head> <!--Inicio del HEAD-->
+<meta charset="utf-8"/>
+<!--Descripcion de la pagina-->
+<meta name="Description" content="Descripcion de la pagina"/>
+<!--Palabras clave-->
+<meta name="Keywords" content="Palabras clave, separadas por comas" />
+
+<!--Incluyo un fichero ejemplo con Javascript
+<script>src="ejemplosJavascript.js"</script>-->
+
+<!--Titulo de la pagina-->
+<title>Titulo de mi pagina</title>
+</head> <!--Fin del HEAD-->
+<body> <!--Comienzo del BODY-->
+    <!--Comienzo del
+BODY-->
+<!--Lista
+ordenada-->
+    <ol>
+    <li>Primer elemento de la
+    lista ordenada</li>
+    <li>Segundo elemento de la
+    lista ordenada</li>
+    <li>Tercer elemento de la
+    lista ordenada</li>
+    </ol>
+    <br>
+    <br>
+    <!--Lista no
+    ordenada-->
+    <ul>
+    <li>Primer elemento de la
+    lista no ordenada</li>
+    <li>Segundo elemento de la
+    lista no ordenada</li>
+    <li>Tercer elemento de la
+    lista no ordenada</li>
+    </ul>
+    <br>
+    <br>
+    <!--Lista no
+    ordenada dentro de otra ordenada-->
+    <ol>
+    <li>Primer elemento de la
+    lista ordenada</li>
+    <li>
+    <ul>
+        <li>Segundo de la
+        ordenada y primero de la lista no
+        ordenada</li>
+        19
+        <li>Segundo de la
+        ordenada y segundo de la lista no
+        ordenada</li>
+        <li>Segundo de la
+        ordenada y tercero de la lista no
+        ordenada</li>
+    </ul>
+    </li>
+    <li>Tercer elemento de la
+    lista ordenada</li>
+    </ol>
+    <br />
+    <br />
+    <p>Lista por definición</p>
+    <br />
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+    </dl>
+    <table border="1px" >
+        <caption>Tabla simple de
+        3x3</caption>
+        <tr>
+            <td>Celda A</td>
+            <td>Celda B</td>
+            <td>Celda B</td>
+        </tr>
+        <tr>
+            <td>Celda C</td>
+            <td>Celda D</td>
+            <td>Celda E</td>
+        </tr>
+        <tr>
+            <td>Celda F</td>
+            <td>Celda G</td>
+            <td>Celda H</td>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    <!--Tabla con
+celdas unidas por rowspan-->
+    <table border="1">
+        <caption>Tabla con celdas unidas
+        mediante rowspan</caption>
+        <tr>
+            <th>&nbsp;</th> <!--Celda vacía-->
+            <th>Básico</th>
+            <th>Completo</th>
+        </tr>
+        <tr>
+            <th>Instalación</th>
+            <td rowspan="2">Gratis!</td>
+            <td>$49.99</td>
+        </tr>
+        <tr>
+        <th>Primer año</th>
+             <td>$19.99</td>
+        </tr>
+        <tr>
+        <th>Segundo año</th>
+            <td>$9.99</td>
+            <td>$29.99</td>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    <table border="1px">
+        <tr>
+        <th scope="row">Día</th>
+            <th>Hoy</th>
+            <th>Mañana</th>
+            <th>Jueves</th>
+        </tr>
+        <tr>
+        <th>Condición</th>
+            <td>Soleado</td>
+            <td>Mayormente soleado</td>
+            <td>Parcialmente nublado</td>
+        </tr>
+        <tr>
+        <th>Temperatura</th>
+            <td>19°C</td>
+            <td>17°C</td>
+            <td>12°C</td>
+        </tr>
+        <tr>
+        <th>Vientos</th>
+            <td>E 13 km/h</td>
+            <td>E 11 km/h</td>
+            <td>S 16 km/h</td>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    <table border="1px">
+    <tr>
+        <th scope="row">Día</th>
+        <th>Hoy</th>
+        <th>Mañana</th>
+        <th>Jueves</th>
+    </tr>
+    <tr>
+        <th>Condición</th>
+        <td>Soleado</td>
+        <td>Mayormente soleado</td>
+        <td>Parcialmente nublado</td>
+    </tr>
+    <tr>
+        <th>Temperatura</th>
+        <td>19°C</td>
+        <td>17°C</td>
+        <td>12°C</td>
+    </tr>
+    <tr>
+        <th>Vientos</th>
+        <td>E 13 km/h</td>
+        <td>E 11 km/h</td>
+        <td>S 16 km/h</td>
+    </tr>
+    </table>
+    <br/>
+    <br/>
+
+    <form name="formulario" id="formulario"
+        method="get" autocomplete="off">
+        Email: <input type="email"
+        name="mail" id="mail">
+        <input type="submit"
+        value="Aceptar"><br><br>
+        Edad;
+        <input type="number" name="edad"
+        id="edad" min="18" max="100">
+        <input type="submit"
+        value="Aceptar"><br>
+        Buscar:
+        <input type="search" name="buscar"
+        id="buscar"><br><br>
+        URL:
+        <input type="url" name="URL"
+        id="URL"><br><br>
+        Edad:
+        <input type="number" name="edad"
+        id="edad" min="0" max="100" step="5"
+        placeholder="Introduce edad"><br><br>
+        Rango: <input type="range" min="0"
+        max="100" step="5"><br><br>
+        Fecha: <input type="date"
+        name="fecha" id="fecha"><br><br>
+        Hora: <input type="time" name="hora"
+        id="hora" required><br><br>
+        Código postal: <input pattern="(0-
+        9){5}" placeholder="5 dígitos" br><br>
+        <input type="submit"
+        value="Enviar"><br><br>
+        coche:</label><br>
+        <select id="cars" name="cars"
+        size="3" multiple>
+        <option
+        value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+        </select>
+    </form>
+
+</body> <!--Fin del BODY-->
+</html> <!--Fin de la pagina
+WEB-->
